@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* Main card */
+.container {
+    background: #ffffff;
+    width: 420px;
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.container h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Button */
+button {
+    background: #667eea;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #5a67d8;
+    transform: translateY(-2px);
+}
+
+/* Loading text */
+#loading {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Quote box */
+#result {
+    margin-top: 25px;
+}
+
+#quote {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #222;
+}
+
+#author {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+}
